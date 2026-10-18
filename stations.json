@@ -4,6 +4,10 @@
             "name": "The Den",
             "channels": ["@actually_purple"],
             "description": "Our Purple Den"
-        }
+        },
+        "station_2": {
+            "name": "YetAnother",
+            "channels": ["@YetAnotherMusicChannel"],
+            "description": "Ari's den"
     }
 }
