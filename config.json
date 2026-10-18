@@ -1,0 +1,13 @@
+{
+    "stations": {
+        "station_1": {
+            "name": "The Den",
+            "channels": ["@actually_purple"],
+            "description": "Our Purple Den",
+            "initial_history_count": 50,
+            "retention": {
+                "type": "forever"
+            }
+        }
+    }
+}

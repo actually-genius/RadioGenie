@@ -1,0 +1,9 @@
+{
+    "stations": {
+        "station_1": {
+            "name": "The Den",
+            "channels": ["@actually_purple"],
+            "description": "Our Purple Den"
+        }
+    }
+}
