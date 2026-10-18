@@ -5,6 +5,9 @@ on:
     - cron: '0 * * * *' # Runs every hour
   workflow_dispatch: # Allows manual trigger from GitHub UI
 
+permissions:
+  contents: write
+
 jobs:
   sync-and-deploy:
     runs-on: ubuntu-latest
@@ -27,6 +30,14 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: |
           python telegram_radio.py
+
+      - name: Commit offset & playlist state back to repository
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add music/*_offset.txt music/*_playlist.json 2>/dev/null || true
+          git commit -m "Auto-update station offset and playlist [skip ci]" || true
+          git push || true
 
       - name: Deploy to InfinityFree via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
