@@ -8,6 +8,16 @@
             "retention": {
                 "type": "forever"
             }
+        },
+        "station_2": {
+            "name": "YetAnother",
+            "channels": ["@YetAnotherMusicChannel"],
+            "description": "Ari's den",
+            "initial_history_count": 50,
+            "retention": {
+                "type": "days",
+                "value": 5
+            }
         }
     }
 }
