@@ -1,1 +1,12 @@
-[]
+[
+    {
+        "title": "Dariush - Shahre Gham",
+        "filename": "Dariush - Shahre Gham.flac",
+        "url": "music/station_1/Dariush - Shahre Gham.flac"
+    },
+    {
+        "title": "Dariush - Marge Shab",
+        "filename": "Dariush - Marge Shab.flac",
+        "url": "music/station_1/Dariush - Marge Shab.flac"
+    }
+]
