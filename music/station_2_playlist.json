@@ -1,12 +1,22 @@
 [
     {
-        "title": "Dariush - Shahre Gham",
-        "filename": "Dariush - Shahre Gham.flac",
-        "url": "music/station_2/Dariush - Shahre Gham.flac"
+        "title": "Liana Flores - try again tomorrow",
+        "filename": "Liana Flores - try again tomorrow.flac",
+        "url": "music/station_2/Liana Flores - try again tomorrow.flac"
     },
     {
-        "title": "Dariush - Marge Shab",
-        "filename": "Dariush - Marge Shab.flac",
-        "url": "music/station_2/Dariush - Marge Shab.flac"
+        "title": "Chezile - Beanie (Slowed)",
+        "filename": "Chezile - Beanie (Slowed).flac",
+        "url": "music/station_2/Chezile - Beanie (Slowed).flac"
+    },
+    {
+        "title": "Chezile - Beanie",
+        "filename": "Chezile - Beanie.flac",
+        "url": "music/station_2/Chezile - Beanie.flac"
+    },
+    {
+        "title": "Billie Eilish - SKINNY",
+        "filename": "Billie Eilish - SKINNY.flac",
+        "url": "music/station_2/Billie Eilish - SKINNY.flac"
     }
 ]
