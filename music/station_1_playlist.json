@@ -1,1 +1,17 @@
-[]
+[
+    {
+        "title": "Nemra Green Grass (Cover)",
+        "filename": "Nemra Green Grass (Cover).mp3",
+        "url": "music/station_1/Nemra Green Grass (Cover).mp3"
+    },
+    {
+        "title": "\u00d3lafur Arnalds - Near Light",
+        "filename": "\u00d3lafur Arnalds - Near Light.flac",
+        "url": "music/station_1/\u00d3lafur Arnalds - Near Light.flac"
+    },
+    {
+        "title": "Memo Boy - Insomniac",
+        "filename": "Memo Boy - Insomniac.flac",
+        "url": "music/station_1/Memo Boy - Insomniac.flac"
+    }
+]
